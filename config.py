@@ -1,5 +1,5 @@
 class Args:
-    train_path = './data/train_process.json'
+    train_path = './data/train.json'
     test_path = './data/test_process.json'
     seq_labels_path = './data/intents.txt'
     token_labels_path = './data/slots.txt'
@@ -11,7 +11,7 @@ class Args:
     do_test = True
     do_save = True
     do_predict = True
-    load_model = False
+    load_model = True
     device = None
     seqlabel2id = {}
     id2seqlabel = {}

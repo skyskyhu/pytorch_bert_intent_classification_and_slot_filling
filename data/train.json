@@ -1,106 +1,142 @@
 [
   {
-    "text": "请帮我打开uc",
+    "text": "订阅应用生产环境变更完成",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "uc"
     }
   },
   {
-    "text": "打开汽车之家",
+    "text": "订阅应用生产环境",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "汽车之家"
     }
   },
   {
-    "text": "帮我打开人人",
+    "text": "订阅生产变更",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "人人"
     }
   },
   {
-    "text": "开微信",
+    "text": "订阅应用",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "微信"
     }
   },
   {
-    "text": "黎宇我要玩中国象棋",
+    "text": "退订应用生产环境变更完成",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "中国象棋"
     }
   },
   {
-    "text": "给我打开一下qq",
+    "text": "退订应用生产环境",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "qq"
     }
   },
   {
-    "text": "帮忙打开一下酷狗音乐播放音乐行不",
+    "text": "退订生产变更",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "酷狗音乐"
     }
   },
   {
-    "text": "百度浏览器打开",
+    "text": "取消应用生产环境变更完成",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "百度浏览器"
     }
   },
   {
-    "text": "搜索手机办公软件",
+    "text": "取消应用生产环境",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "取消生产变更",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "订阅高级模式",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "取消高级模式",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "查看订阅",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "取消订阅",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "查看播报",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+    }
+  },
+  {
+    "text": "取消播报",
     "domain": "app",
     "intent": "QUERY",
     "slots": {
-      "name": "办公软件"
     }
   },
   {
-    "text": "凯立德",
+    "text": "查看播报",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "凯立德"
     }
   },
   {
-    "text": "打开相机这",
+    "text": "查看生产播报",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "相机"
     }
   },
   {
-    "text": "打开qq同步助手",
+    "text": "订阅工单发布",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "qq同步助手"
     }
   },
   {
-    "text": "打开淘宝购物",
+    "text": "取消订阅工单发布",
     "domain": "app",
     "intent": "LAUNCH",
     "slots": {
-      "name": "淘宝购物"
     }
   },
   {
@@ -108,23 +144,6 @@
     "domain": "app",
     "intent": "QUERY",
     "slots": {
-      "name": "微信"
-    }
-  },
-  {
-    "text": "打开uc二哦",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "uc"
-    }
-  },
-  {
-    "text": "开启qq",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
     }
   },
   {
@@ -4131,150 +4150,6 @@
     }
   },
   {
-    "text": "打开我的浏览器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "浏览器"
-    }
-  },
-  {
-    "text": "打开qq浏览器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq浏览器"
-    }
-  },
-  {
-    "text": "打开音乐播放器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "音乐播放器"
-    }
-  },
-  {
-    "text": "启动浏览器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "浏览器"
-    }
-  },
-  {
-    "text": "他开酷狗",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "酷狗"
-    }
-  },
-  {
-    "text": "帮我搜索三国杀",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "三国杀"
-    }
-  },
-  {
-    "text": "打开极品飞车",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "极品飞车"
-    }
-  },
-  {
-    "text": "公交查询",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "公交查询"
-    }
-  },
-  {
-    "text": "打开搜狐新闻",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "搜狐新闻"
-    }
-  },
-  {
-    "text": "图库",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "图库"
-    }
-  },
-  {
-    "text": "打开德州扑克",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "德州扑克"
-    }
-  },
-  {
-    "text": "请打开qq",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
-    }
-  },
-  {
-    "text": "camera360",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "camera360"
-    }
-  },
-  {
-    "text": "我想上qq",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
-    }
-  },
-  {
-    "text": "打开今天朝记事本软件",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "今天朝记事本"
-    }
-  },
-  {
-    "text": "进入手机qq",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
-    }
-  },
-  {
-    "text": "打开优酷视频",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "优酷视频"
-    }
-  },
-  {
-    "text": "搜索米聊",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "米聊"
-    }
-  },
-  {
     "text": "济宁到潍坊的，车。",
     "domain": "bus",
     "intent": "QUERY",
@@ -7835,14 +7710,6 @@
     }
   },
   {
-    "text": "封神太子",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "封神太子"
-    }
-  },
-  {
     "text": "粉红女郎",
     "domain": "video",
     "intent": "QUERY",
@@ -8038,14 +7905,6 @@
     }
   },
   {
-    "text": "魔神战记",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "魔神战记"
-    }
-  },
-  {
     "text": "打开苹果公司的官方网站",
     "domain": "website",
     "intent": "OPEN",
@@ -8117,390 +7976,6 @@
     "intent": "OPEN",
     "slots": {
       "name": "谷歌"
-    }
-  },
-  {
-    "text": "打开熊猫看书",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "熊猫看书"
-    }
-  },
-  {
-    "text": "opera浏览器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "opera浏览器"
-    }
-  },
-  {
-    "text": "钛备份",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "钛备份"
-    }
-  },
-  {
-    "text": "打开sky电话",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "sky电话"
-    }
-  },
-  {
-    "text": "帮我找菜单",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "菜单"
-    }
-  },
-  {
-    "text": "找愤怒的小鸟",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "愤怒的小鸟"
-    }
-  },
-  {
-    "text": "正韵打开相机",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "相机"
-    }
-  },
-  {
-    "text": "我把相机打开",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "相机"
-    }
-  },
-  {
-    "text": "打开uc浏览器v八",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "uc浏览器v八"
-    }
-  },
-  {
-    "text": "打开qq登陆到聊天模式",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
-    }
-  },
-  {
-    "text": "打开个性闹钟",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "个性闹钟"
-    }
-  },
-  {
-    "text": "国际象棋开局",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "国际象棋"
-    }
-  },
-  {
-    "text": "打开uc浏览器登录新浪网主页",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "uc浏览器"
-    }
-  },
-  {
-    "text": "搜索声控安卓软件",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "声控安卓"
-    }
-  },
-  {
-    "text": "查找通讯录",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "通讯录"
-    }
-  },
-  {
-    "text": "打开天天动听播放站你名下",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "天天动听"
-    }
-  },
-  {
-    "text": "搜索游戏",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "游戏"
-    }
-  },
-  {
-    "text": "搜索机锋市场",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "机锋市场"
-    }
-  },
-  {
-    "text": "进入设置菜单",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "设置"
-    }
-  },
-  {
-    "text": "打开应用程序钱包",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "钱包"
-    }
-  },
-  {
-    "text": "赶集",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "赶集"
-    }
-  },
-  {
-    "text": "我想上qq了",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
-    }
-  },
-  {
-    "text": "音乐播放器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "音乐播放器"
-    }
-  },
-  {
-    "text": "金山词霸",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "金山词霸"
-    }
-  },
-  {
-    "text": "下载飞信",
-    "domain": "app",
-    "intent": "DOWNLOAD",
-    "slots": {
-      "name": "飞信"
-    }
-  },
-  {
-    "text": "嗯打开相机",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "相机"
-    }
-  },
-  {
-    "text": "搜狗",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "搜狗"
-    }
-  },
-  {
-    "text": "打开uc浏览器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "uc浏览器"
-    }
-  },
-  {
-    "text": "打开qq找杨佳艺",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq"
-    }
-  },
-  {
-    "text": "百度百科",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "百度百科"
-    }
-  },
-  {
-    "text": "帮我打开电话本",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "电话本"
-    }
-  },
-  {
-    "text": "打开会说话的汤姆猫",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "会说话的汤姆猫"
-    }
-  },
-  {
-    "text": "搜索京东商城",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "京东商城"
-    }
-  },
-  {
-    "text": "打开酷狗并随机播放",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "酷狗"
-    }
-  },
-  {
-    "text": "打开天天动听并开始播放音乐",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "天天动听"
-    }
-  },
-  {
-    "text": "酷狗音乐盒",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "酷狗音乐盒"
-    }
-  },
-  {
-    "text": "打开应用漫画",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "漫画"
-    }
-  },
-  {
-    "text": "启动qq浏览器",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "qq浏览器"
-    }
-  },
-  {
-    "text": "打开系统软件清理",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "系统软件清理"
-    }
-  },
-  {
-    "text": "把uc打开啊",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "uc"
-    }
-  },
-  {
-    "text": "打开相机我想你",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "相机"
-    }
-  },
-  {
-    "text": "开启通讯录",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "通讯录"
-    }
-  },
-  {
-    "text": "有道词典",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "有道词典"
-    }
-  },
-  {
-    "text": "帮我开捕鱼达人",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "捕鱼达人"
-    }
-  },
-  {
-    "text": "打开搜狐微博",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "搜狐微博"
-    }
-  },
-  {
-    "text": "打开语音软件",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-      "name": "语音"
-    }
-  },
-  {
-    "text": "下载汉化软件",
-    "domain": "app",
-    "intent": "DOWNLOAD",
-    "slots": {
-      "name": "汉化"
-    }
-  },
-  {
-    "text": "搜索结束软件",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-      "name": "结束"
     }
   },
   {
