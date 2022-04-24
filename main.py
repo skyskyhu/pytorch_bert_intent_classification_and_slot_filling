@@ -11,6 +11,7 @@ from config import Args
 from model import BertForIntentClassificationAndSlotFilling
 from dataset import BertDataset
 from preprocess import Processor, get_features
+import torch.nn.functional as F
 
 class Trainer:
     def __init__(self, model, config):
@@ -159,6 +160,7 @@ class Trainer:
                 attention_mask,
                 token_type_ids,
             )
+            seq_output_probs = F.softmax(seq_output, dim = -1)
             seq_output = seq_output.detach().cpu().numpy()
             token_output = token_output.detach().cpu().numpy()
             seq_output  = np.argmax(seq_output, -1)
@@ -169,6 +171,7 @@ class Trainer:
             token_output = [self.config.id2nerlabel[i] for i in token_output]
             print('意图：', self.config.id2seqlabel[seq_output])
             print('槽位：', str([(i[0],text[i[1]:i[2]+1], i[1], i[2]) for i in get_entities(token_output)]))
+            print('prob:', seq_output_probs[0][seq_output])
 
 
 if __name__ == '__main__':
