@@ -6,12 +6,12 @@ import torch
 import numpy as np
 import os
 from seqeval.metrics.sequence_labeling import get_entities
-
-from config import Args
-from model import BertForIntentClassificationAndSlotFilling
-from dataset import BertDataset
-from preprocess import Processor, get_features
 import torch.nn.functional as F
+
+from .config import Args
+from .model import BertForIntentClassificationAndSlotFilling
+from .dataset import BertDataset
+from .preprocess import Processor, get_features
 
 class Trainer:
     def __init__(self, model, config):

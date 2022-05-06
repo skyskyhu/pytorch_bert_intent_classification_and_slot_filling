@@ -1,7 +1,8 @@
 import re
 import torch
 from transformers import BertTokenizer
-from config import Args
+
+from .config import Args
 
 
 class InputExample:
