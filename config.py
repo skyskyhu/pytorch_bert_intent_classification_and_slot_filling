@@ -1,12 +1,15 @@
+import os
+
 class Args:
-    train_path = './data/train.json'
-    test_path = './data/test_process.json'
-    seq_labels_path = './data/intents.txt'
-    token_labels_path = './data/slots.txt'
+    currentDir = os.path.dirname(__file__)
+    train_path = currentDir + '/data/train.json'
+    test_path = currentDir + '/data/test_process.json'
+    seq_labels_path = currentDir + '/data/intents.txt'
+    token_labels_path = currentDir + '/data/slots.txt'
     bert_dir = 'bert-base-chinese'
-    save_dir = './checkpoints/'
-    load_dir = './checkpoints/model.pt'
-    do_train = True
+    save_dir = currentDir + '/checkpoints/'
+    load_dir = currentDir + '/checkpoints/model.pt'
+    do_train = False
     do_eval = False
     do_test = True
     do_save = True
