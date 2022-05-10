@@ -8,10 +8,17 @@ import os
 from seqeval.metrics.sequence_labeling import get_entities
 import torch.nn.functional as F
 
-from .config import Args
-from .model import BertForIntentClassificationAndSlotFilling
-from .dataset import BertDataset
-from .preprocess import Processor, get_features
+if __name__ == '__main__':
+    from config import Args
+    from model import BertForIntentClassificationAndSlotFilling
+    from dataset import BertDataset
+    from preprocess import Processor, get_features
+else:
+    from .config import Args
+    from .model import BertForIntentClassificationAndSlotFilling
+    from .dataset import BertDataset
+    from .preprocess import Processor, get_features
+
 
 class Trainer:
     def __init__(self, model, config):

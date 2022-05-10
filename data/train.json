@@ -2,143 +2,116 @@
   {
     "text": "订阅应用生产环境变更完成",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "SUBSCRIBE",
     "slots": {
     }
   },
   {
-    "text": "订阅应用生产环境",
+    "text": "订阅",
     "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "订阅生产变更",
-    "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "SUBSCRIBE",
     "slots": {
     }
   },
   {
     "text": "订阅应用",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "SUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "订阅应用生产环境",
+    "domain": "app",
+    "intent": "SUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "订阅生产变更",
+    "domain": "app",
+    "intent": "SUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "订阅应用运维",
+    "domain": "app",
+    "intent": "SUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "订阅服务器重启",
+    "domain": "app",
+    "intent": "SUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "订阅应用opsfree",
+    "domain": "app",
+    "intent": "SUBSCRIBE",
     "slots": {
     }
   },
   {
     "text": "退订应用生产环境变更完成",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "UNSUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "退订",
+    "domain": "app",
+    "intent": "UNSUBSCRIBE",
+    "slots": {
+    }
+  },
+  {
+    "text": "退订应用",
+    "domain": "app",
+    "intent": "UNSUBSCRIBE",
     "slots": {
     }
   },
   {
     "text": "退订应用生产环境",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "UNSUBSCRIBE",
     "slots": {
     }
   },
   {
     "text": "退订生产变更",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "UNSUBSCRIBE",
     "slots": {
     }
   },
   {
-    "text": "取消应用生产环境变更完成",
+    "text": "退订应用运维",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "UNSUBSCRIBE",
     "slots": {
     }
   },
   {
-    "text": "取消应用生产环境",
+    "text": "退订服务器重启",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "UNSUBSCRIBE",
     "slots": {
     }
   },
   {
-    "text": "取消生产变更",
+    "text": "退订应用opsfree",
     "domain": "app",
-    "intent": "LAUNCH",
+    "intent": "UNSUBSCRIBE",
     "slots": {
     }
   },
-  {
-    "text": "订阅高级模式",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "取消高级模式",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "查看订阅",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "取消订阅",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "查看播报",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "取消播报",
-    "domain": "app",
-    "intent": "QUERY",
-    "slots": {
-    }
-  },
-  {
-    "text": "查看播报",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "查看生产播报",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "订阅工单发布",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
-  {
-    "text": "取消订阅工单发布",
-    "domain": "app",
-    "intent": "LAUNCH",
-    "slots": {
-    }
-  },
+
   {
     "text": "帮我找到微信",
     "domain": "app",

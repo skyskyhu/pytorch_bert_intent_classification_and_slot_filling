@@ -7,7 +7,7 @@ def get_data():
     intents = []
     sentences = []
     slots = []
-    with open(train_file, 'r') as fp:
+    with open(train_file, 'r', encoding='UTF-8') as fp:
         train_data = eval(fp.read())
         for t in train_data:
             print(t)
@@ -22,27 +22,27 @@ def get_data():
     domains = list(set(domains))
     intents = list(set(intents))
     slots = list(set(slots))
-    with open('sentences.txt','w') as fp:
+    with open('sentences.txt','w', encoding='UTF-8') as fp:
         fp.write('\n'.join(sentences))
-    with open('domains.txt','w') as fp:
+    with open('domains.txt','w', encoding='UTF-8') as fp:
         fp.write('\n'.join(domains))
-    with open('intents.txt','w') as fp:
+    with open('intents.txt','w', encoding='UTF-8') as fp:
         fp.write('\n'.join(intents))
-    with open('slots.txt','w') as fp:
+    with open('slots.txt','w', encoding='UTF-8') as fp:
         fp.write('\n'.join(slots))
 
 
 def train_test_split(ratio=0.8):
     train_file = './train.json'
-    with open(train_file, 'r') as fp:
+    with open(train_file, 'r', encoding='UTF-8') as fp:
         data = eval(fp.read())
         random.shuffle(data)
         total = len(data)
         train_data = data[:int(total * ratio)]
         test_data = data[int(total * ratio):]
-    with open('train_process.json', 'w') as fp:
+    with open('train_process.json', 'w', encoding='UTF-8') as fp:
         json.dump(train_data, fp, ensure_ascii=False)
-    with open('test_process.json', 'w') as fp:
+    with open('test_process.json', 'w', encoding='UTF-8') as fp:
         json.dump(test_data, fp, ensure_ascii=False)
 
 

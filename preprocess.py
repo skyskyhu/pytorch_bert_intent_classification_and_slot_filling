@@ -2,7 +2,11 @@ import re
 import torch
 from transformers import BertTokenizer
 
-from .config import Args
+try:
+    from .config import Args
+except ImportError:
+    from config import Args
+
 
 
 class InputExample:

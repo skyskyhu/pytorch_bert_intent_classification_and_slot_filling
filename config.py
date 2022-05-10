@@ -9,12 +9,12 @@ class Args:
     bert_dir = 'bert-base-chinese'
     save_dir = currentDir + '/checkpoints/'
     load_dir = currentDir + '/checkpoints/model.pt'
-    do_train = False
+    do_train = True
     do_eval = False
     do_test = True
     do_save = True
     do_predict = True
-    load_model = True
+    load_model = False
     device = None
     seqlabel2id = {}
     id2seqlabel = {}
@@ -26,7 +26,7 @@ class Args:
 
     tokenlabel2id = {}
     id2tokenlabel = {}
-    with open(token_labels_path, 'r') as fp:
+    with open(token_labels_path, 'r', encoding='UTF-8') as fp:
         token_labels = fp.read().split('\n')
         for i, label in enumerate(token_labels):
             tokenlabel2id[label] = i
