@@ -1226,33 +1226,6 @@
         }
     },
     {
-        "text": "从广州到贵阳市的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "贵阳",
-            "startLoc_city": "广州"
-        }
-    },
-    {
-        "text": "东营到济南的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "济南",
-            "startLoc_city": "东营"
-        }
-    },
-    {
-        "text": "后天去大连的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "大连",
-            "startDate_date": "后天"
-        }
-    },
-    {
         "text": "十月四号从广州到北京的飞机票多少钱",
         "domain": "flight",
         "intent": "QUERY",
@@ -1260,16 +1233,6 @@
             "endLoc_city": "北京",
             "startDate_date": "十月四号",
             "startLoc_city": "广州"
-        }
-    },
-    {
-        "text": "明天从桂林到杭州的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "杭州",
-            "startDate_date": "明天",
-            "startLoc_city": "桂林"
         }
     },
     {
@@ -1282,74 +1245,10 @@
         }
     },
     {
-        "text": "有没有下周二到贵阳的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "贵阳",
-            "startDate_date": "下周二"
-        }
-    },
-    {
-        "text": "明天去徐州的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "徐州",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "明天去纽约的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "纽约",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "上海到北京的飞机航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startLoc_city": "上海"
-        }
-    },
-    {
         "text": "机票",
         "domain": "flight",
         "intent": "QUERY",
         "slots": {}
-    },
-    {
-        "text": "去桂林的航班怎样",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "桂林"
-        }
-    },
-    {
-        "text": "阜阳到温州的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "温州",
-            "startLoc_city": "阜阳"
-        }
-    },
-    {
-        "text": "七月三十一日上海虹桥到北京的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startDate_date": "七月三十一日",
-            "startLoc_city": "上海",
-            "startLoc_poi": "虹桥"
-        }
     },
     {
         "text": "感冒注意什么？",
@@ -2860,15 +2759,6 @@
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "南昌"
-        }
-    },
-    {
-        "text": "杭州到北京的火车班次",
-        "domain": "train",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startLoc_city": "杭州"
         }
     },
     {
@@ -4701,105 +4591,12 @@
         }
     },
     {
-        "text": "上海去武汉的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "武汉",
-            "startLoc_city": "上海"
-        }
-    },
-    {
-        "text": "从重庆到武汉的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "武汉",
-            "startLoc_city": "重庆"
-        }
-    },
-    {
         "text": "杭州到郑州飞机票",
         "domain": "flight",
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "郑州",
             "startLoc_city": "杭州"
-        }
-    },
-    {
-        "text": "九月二十号广州飞北京的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startDate_date": "九月二十号",
-            "startLoc_city": "广州"
-        }
-    },
-    {
-        "text": "到贵阳的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "贵阳"
-        }
-    },
-    {
-        "text": "后天从深圳到成都的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "成都",
-            "startDate_date": "后天",
-            "startLoc_city": "深圳"
-        }
-    },
-    {
-        "text": "今天新余到北京的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startDate_date": "今天",
-            "startLoc_city": "新余"
-        }
-    },
-    {
-        "text": "明天到佛山的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "佛山",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "明天去成都的航班有几趟",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "成都",
-            "startDate_dateOrig": "明天"
-        }
-    },
-    {
-        "text": "八月十九号到成都的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "成都",
-            "startDate_date": "八月十九号"
-        }
-    },
-    {
-        "text": "4月28号上海到南昌的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "南昌",
-            "startDate_date": "4月28号",
-            "startLoc_city": "上海"
         }
     },
     {
@@ -4818,15 +4615,6 @@
             "endLoc_city": "北京",
             "startDate_date": "明天",
             "startLoc_city": "潍坊"
-        }
-    },
-    {
-        "text": "二十五日去深圳的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "深圳",
-            "startDate_date": "二十五日"
         }
     },
     {
@@ -10452,40 +10240,12 @@
         }
     },
     {
-        "text": "济南到重庆的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "重庆",
-            "startLoc_city": "济南"
-        }
-    },
-    {
         "text": "厦门到上海的机票",
         "domain": "flight",
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "上海",
             "startLoc_city": "厦门"
-        }
-    },
-    {
-        "text": "明天回广州的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "广州",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "八月十号从重庆到武汉的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "武汉",
-            "startDate_date": "八月十号",
-            "startLoc_city": "重庆"
         }
     },
     {
@@ -10498,58 +10258,12 @@
         }
     },
     {
-        "text": "儋州到海口的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "海口",
-            "startLoc_area": "儋州"
-        }
-    },
-    {
-        "text": "广州至南宁航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "南宁",
-            "startLoc_city": "广州"
-        }
-    },
-    {
-        "text": "明天珠海到青岛的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "青岛",
-            "startDate_date": "明天",
-            "startLoc_city": "珠海"
-        }
-    },
-    {
         "text": "南昌到广州飞机票",
         "domain": "flight",
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "广州",
             "startLoc_city": "南昌"
-        }
-    },
-    {
-        "text": "明天去桂林的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "桂林",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "7月30号去深圳的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "深圳",
-            "startDate_date": "7月30号"
         }
     },
     {
@@ -10562,48 +10276,11 @@
         }
     },
     {
-        "text": "明天去南昌的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "南昌",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "7月25号去上海的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "上海",
-            "startDate_date": "7月25号"
-        }
-    },
-    {
         "text": "去北京有什么飞机",
         "domain": "flight",
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "北京"
-        }
-    },
-    {
-        "text": "明天长沙到上海的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "上海",
-            "startDate_date": "明天",
-            "startLoc_city": "长沙"
-        }
-    },
-    {
-        "text": "大连飞往上海的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "上海",
-            "startLoc_city": "大连"
         }
     },
     {
@@ -10613,15 +10290,6 @@
         "slots": {
             "endLoc_city": "苏州",
             "startLoc_city": "威海"
-        }
-    },
-    {
-        "text": "青岛到广州航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "广州",
-            "startLoc_city": "青岛"
         }
     },
     {
@@ -10640,24 +10308,6 @@
         "slots": {
             "endLoc_city": "南京",
             "startLoc_city": "武汉"
-        }
-    },
-    {
-        "text": "上海飞往北京的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startLoc_city": "上海"
-        }
-    },
-    {
-        "text": "后天去武汉的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "武汉",
-            "startDate_date": "后天"
         }
     },
     {
@@ -10688,78 +10338,6 @@
         }
     },
     {
-        "text": "去伦敦的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "伦敦"
-        }
-    },
-    {
-        "text": "西昌到成都的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "成都",
-            "startLoc_area": "西昌"
-        }
-    },
-    {
-        "text": "晋江到武汉的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "武汉",
-            "startLoc_area": "晋江"
-        }
-    },
-    {
-        "text": "汕头到重庆的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "重庆",
-            "startLoc_city": "汕头"
-        }
-    },
-    {
-        "text": "九月二十六号从深圳到宁波的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "宁波",
-            "startDate_date": "九月二十六号",
-            "startLoc_city": "深圳"
-        }
-    },
-    {
-        "text": "四月二十日合肥到深圳的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "深圳",
-            "startDate_date": "四月二十日",
-            "startLoc_city": "合肥"
-        }
-    },
-    {
-        "text": "到武汉的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "武汉"
-        }
-    },
-    {
-        "text": "从从合肥到北京的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
-            "startLoc_city": "合肥"
-        }
-    },
-    {
         "text": "从厦门到昆明的飞机",
         "domain": "flight",
         "intent": "QUERY",
@@ -10777,41 +10355,12 @@
         }
     },
     {
-        "text": "八月十一日从厦门飞往上海的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "上海",
-            "startDate_date": "八月十一日",
-            "startLoc_city": "厦门"
-        }
-    },
-    {
-        "text": "八月一号去上海的航班",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "上海",
-            "startDate_date": "八月一号"
-        }
-    },
-    {
         "text": "上海到淮安的飞机",
         "domain": "flight",
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "淮安",
             "startLoc_city": "上海"
-        }
-    },
-    {
-        "text": "明天温州到上海的航班。",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "上海",
-            "startDate_date": "明天",
-            "startLoc_city": "温州"
         }
     },
     {
@@ -15479,15 +15028,6 @@
         }
     },
     {
-        "text": "杭州南站到龙游的火车有哪几班",
-        "domain": "train",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_area": "龙游",
-            "startLoc_poi": "杭州南站"
-        }
-    },
-    {
         "text": "北京到镇江的火车",
         "domain": "train",
         "intent": "QUERY",
@@ -15567,14 +15107,6 @@
         "slots": {
             "endLoc_city": "西安",
             "startLoc_city": "洛阳"
-        }
-    },
-    {
-        "text": "到北京的火车班次",
-        "domain": "train",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京"
         }
     },
     {
