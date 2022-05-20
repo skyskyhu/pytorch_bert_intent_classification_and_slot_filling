@@ -144,7 +144,19 @@
         "slots": {}
     },
     {
+        "text": "查看订阅群播报",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
         "text": "列出订阅",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "列出订阅群播报",
         "domain": "app",
         "intent": "LISTSUBSCRIBE",
         "slots": {}

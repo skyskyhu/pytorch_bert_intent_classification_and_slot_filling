@@ -7,6 +7,7 @@ import numpy as np
 import os
 from seqeval.metrics.sequence_labeling import get_entities
 import torch.nn.functional as F
+import json
 
 if __name__ == '__main__':
     from config import Args
@@ -179,7 +180,7 @@ class Trainer:
             print('意图：', self.config.id2seqlabel[seq_output])
             print('槽位：', str([(i[0],text[i[1]:i[2]+1], i[1], i[2]) for i in get_entities(token_output)]))
             print('prob:', seq_output_probs[0][seq_output])
-
+            return self.config.id2seqlabel[seq_output]
 
 if __name__ == '__main__':
     args = Args()
@@ -231,3 +232,15 @@ if __name__ == '__main__':
                 print('=================================')
                 if i == 10:
                     break
+
+    train_file = './data/train.json'
+    trainJson = json.load(open(train_file, 'r', encoding='UTF-8'))
+    isStartFilter = False
+    for trainItem in trainJson:
+        text = trainItem['text']
+        print(text)
+        intent = trainer.predict(text)
+        if intent != trainItem['intent']:
+            print('ERROR ' + intent  + ' ' + text )
+        if '帮我找' in text:
+            break
