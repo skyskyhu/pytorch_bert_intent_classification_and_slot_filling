@@ -120,23 +120,36 @@
         "slots": {}
     },
     {
+      "text": "我要退订群播报",
+      "domain": "app",
+      "intent": "UNSUBSCRIBE",
+      "slots": {}
+  },
+    {
         "text": "查看群播报",
         "domain": "app",
-        "intent": "UNSUBSCRIBE",
+        "intent": "LISTSUBSCRIBE",
         "slots": {}
     },
     {
         "text": "列出群播报",
         "domain": "app",
-        "intent": "UNSUBSCRIBE",
+        "intent": "LISTSUBSCRIBE",
         "slots": {}
     },
     {
-        "text": "我要退订群播报",
-        "domain": "app",
-        "intent": "UNSUBSCRIBE",
-        "slots": {}
-    },
+      "text": "查看订阅",
+      "domain": "app",
+      "intent": "LISTSUBSCRIBE",
+      "slots": {}
+  },
+  {
+      "text": "列出订阅",
+      "domain": "app",
+      "intent": "LISTSUBSCRIBE",
+      "slots": {}
+  },
+   
     {
         "text": "帮我找到微信",
         "domain": "app",
