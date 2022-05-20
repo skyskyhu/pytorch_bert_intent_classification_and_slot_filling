@@ -120,11 +120,11 @@
         "slots": {}
     },
     {
-      "text": "我要退订群播报",
-      "domain": "app",
-      "intent": "UNSUBSCRIBE",
-      "slots": {}
-  },
+        "text": "我要退订群播报",
+        "domain": "app",
+        "intent": "UNSUBSCRIBE",
+        "slots": {}
+    },
     {
         "text": "查看群播报",
         "domain": "app",
@@ -138,18 +138,17 @@
         "slots": {}
     },
     {
-      "text": "查看订阅",
-      "domain": "app",
-      "intent": "LISTSUBSCRIBE",
-      "slots": {}
-  },
-  {
-      "text": "列出订阅",
-      "domain": "app",
-      "intent": "LISTSUBSCRIBE",
-      "slots": {}
-  },
-   
+        "text": "查看订阅",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "列出订阅",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
     {
         "text": "帮我找到微信",
         "domain": "app",
@@ -999,12 +998,6 @@
         }
     },
     {
-        "text": "给我看邮件",
-        "domain": "email",
-        "intent": "LAUNCH",
-        "slots": {}
-    },
-    {
         "text": "帮我发邮件给婷婷",
         "domain": "email",
         "intent": "SEND",
@@ -1032,12 +1025,6 @@
             "content": "明早我们一起跑步",
             "name": "灿灿"
         }
-    },
-    {
-        "text": "给我看新邮件",
-        "domain": "email",
-        "intent": "LAUNCH",
-        "slots": {}
     },
     {
         "text": "我想打开新邮件",
@@ -1068,15 +1055,6 @@
         "slots": {
             "datetime_time": "现在",
             "tvchannel": "广东卫视"
-        }
-    },
-    {
-        "text": "今晚看什么电影？",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "datetime_time": "今晚"
         }
     },
     {
@@ -1114,17 +1092,6 @@
         "slots": {
             "name": "谁在说",
             "tvchannel": "北京青年频道"
-        }
-    },
-    {
-        "text": "看一下今天晚上广西台有没有警戒线？",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "datetime_date": "今天",
-            "datetime_time": "晚上",
-            "name": "警戒线",
-            "tvchannel": "广西台"
         }
     },
     {
@@ -1250,16 +1217,6 @@
         }
     },
     {
-        "text": "贵州卫视今晚看什么电视剧？",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电视剧",
-            "datetime_time": "今晚",
-            "tvchannel": "贵州卫视"
-        }
-    },
-    {
         "text": "湖南卫视现在演什么节目",
         "domain": "epg",
         "intent": "QUERY",
@@ -1339,15 +1296,6 @@
         "intent": "QUERY",
         "slots": {
             "endLoc_city": "徐州",
-            "startDate_date": "明天"
-        }
-    },
-    {
-        "text": "帮我看一下明天去北京的飞机",
-        "domain": "flight",
-        "intent": "QUERY",
-        "slots": {
-            "endLoc_city": "北京",
             "startDate_date": "明天"
         }
     },
@@ -1657,14 +1605,6 @@
         }
     },
     {
-        "text": "帮我看一下到科大讯飞最快的是哪条路线",
-        "domain": "map",
-        "intent": "ROUTE",
-        "slots": {
-            "endLoc_poi": "科大讯飞"
-        }
-    },
-    {
         "text": "杭州到上海",
         "domain": "map",
         "intent": "ROUTE",
@@ -1755,15 +1695,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "宏大"
-        }
-    },
-    {
-        "text": "中超赛事预告，从在哪里看呢？",
-        "domain": "match",
-        "intent": "QUERY",
-        "slots": {
-            "category": "中超",
-            "type": "预告"
         }
     },
     {
@@ -2256,36 +2187,11 @@
         "slots": {}
     },
     {
-        "text": "有什么好看的校园小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "校园",
-            "popularity": "好看"
-        }
-    },
-    {
         "text": "搜一搜三毛的小说",
         "domain": "novel",
         "intent": "QUERY",
         "slots": {
             "author": "三毛"
-        }
-    },
-    {
-        "text": "我要看唯美童话小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "唯美童话"
-        }
-    },
-    {
-        "text": "我要看末世进化小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "末世进化"
         }
     },
     {
@@ -2303,22 +2209,6 @@
         "slots": {
             "author": "三毛",
             "category": "爱情"
-        }
-    },
-    {
-        "text": "我想看现在很流行的小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "popularity": "流行"
-        }
-    },
-    {
-        "text": "我要看图文小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "图文"
         }
     },
     {
@@ -3233,14 +3123,6 @@
         }
     },
     {
-        "text": "我要看云南二台",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "云南二台"
-        }
-    },
-    {
         "text": "CCTV-12套的节目单",
         "domain": "epg",
         "intent": "QUERY",
@@ -3254,14 +3136,6 @@
         "intent": "PLAY",
         "slots": {
             "name": "深圳卫视"
-        }
-    },
-    {
-        "text": "我想看中央十三频道",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "中央十三频道"
         }
     },
     {
@@ -3376,14 +3250,6 @@
         }
     },
     {
-        "text": "小c我想看北京青年",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "北京青年"
-        }
-    },
-    {
         "text": "美国电影敢死队二",
         "domain": "video",
         "intent": "QUERY",
@@ -3391,14 +3257,6 @@
             "area": "美国",
             "category": "电影",
             "name": "敢死队二"
-        }
-    },
-    {
-        "text": "要看特种兵",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "特种兵"
         }
     },
     {
@@ -3494,14 +3352,6 @@
         }
     },
     {
-        "text": "我要看功夫熊猫帮我播放出来",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "功夫熊猫"
-        }
-    },
-    {
         "text": "请帮我播放樱桃",
         "domain": "video",
         "intent": "QUERY",
@@ -3532,14 +3382,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "断剑"
-        }
-    },
-    {
-        "text": "我要看西游记啊",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "西游记"
         }
     },
     {
@@ -3636,14 +3478,6 @@
         }
     },
     {
-        "text": "我想看爱在春天",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "爱在春天"
-        }
-    },
-    {
         "text": "小破孩动画片",
         "domain": "video",
         "intent": "QUERY",
@@ -3667,15 +3501,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "爱情工寓"
-        }
-    },
-    {
-        "text": "我想看电影台北飘雪",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "name": "台北飘雪"
         }
     },
     {
@@ -3746,14 +3571,6 @@
         "intent": "OPEN",
         "slots": {
             "name": "江苏移动网"
-        }
-    },
-    {
-        "text": "易车网看看",
-        "domain": "website",
-        "intent": "OPEN",
-        "slots": {
-            "name": "易车网"
         }
     },
     {
@@ -4007,14 +3824,6 @@
         "intent": "QUERY",
         "slots": {
             "dishName": "腊鱼头"
-        }
-    },
-    {
-        "text": "帮我看一下糖醋排骨怎么烧？",
-        "domain": "cookbook",
-        "intent": "QUERY",
-        "slots": {
-            "dishName": "糖醋排骨"
         }
     },
     {
@@ -4822,14 +4631,6 @@
         }
     },
     {
-        "text": "电视回看安徽卫视",
-        "domain": "epg",
-        "intent": "LOOK_BACK",
-        "slots": {
-            "tvchannel": "安徽卫视"
-        }
-    },
-    {
         "text": "12月9日北京卫视节目单",
         "domain": "epg",
         "intent": "QUERY",
@@ -4888,15 +4689,6 @@
             "category": "电影",
             "datetime_date": "2012年",
             "tag": "恐怖"
-        }
-    },
-    {
-        "text": "现在有什么好看的电视剧吗？",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电视剧",
-            "datetime_time": "现在"
         }
     },
     {
@@ -5740,12 +5532,6 @@
         "slots": {}
     },
     {
-        "text": "我要看新闻玩不？",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {}
-    },
-    {
         "text": "后天新闻",
         "domain": "news",
         "intent": "PLAY",
@@ -5760,12 +5546,6 @@
         "slots": {
             "category": "军事"
         }
-    },
-    {
-        "text": "我想看新闻。",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {}
     },
     {
         "text": "我想听听钓鱼岛的新闻。",
@@ -5788,12 +5568,6 @@
         "slots": {
             "location_city": "昆明"
         }
-    },
-    {
-        "text": "看新闻。",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {}
     },
     {
         "text": "我想跟今天的新闻。",
@@ -5875,26 +5649,10 @@
         "slots": {}
     },
     {
-        "text": "我要看军事武侠小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "军事武侠"
-        }
-    },
-    {
         "text": "给我讲一个长篇小说。",
         "domain": "novel",
         "intent": "QUERY",
         "slots": {}
-    },
-    {
-        "text": "我要看现代言情小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "现代言情"
-        }
     },
     {
         "text": "毛泽东诗词，咏梅。",
@@ -6865,14 +6623,6 @@
         }
     },
     {
-        "text": "小c 你好我想看河北卫视",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "河北卫视"
-        }
-    },
-    {
         "text": "CCTV6电影",
         "domain": "tvchannel",
         "intent": "PLAY",
@@ -6894,14 +6644,6 @@
         "intent": "PLAY",
         "slots": {
             "name": "河南卫视"
-        }
-    },
-    {
-        "text": "很想看安徽卫视来着",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "安徽卫视"
         }
     },
     {
@@ -6943,14 +6685,6 @@
         "slots": {
             "category": "电影",
             "timeDescr": "最新"
-        }
-    },
-    {
-        "text": "看毛泽东在武汉的故事",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "毛泽东在武汉的故事"
         }
     },
     {
@@ -7131,14 +6865,6 @@
         }
     },
     {
-        "text": "我要看综艺",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "tag": "综艺"
-        }
-    },
-    {
         "text": "张绍刚的综艺节目",
         "domain": "video",
         "intent": "QUERY",
@@ -7181,14 +6907,6 @@
         }
     },
     {
-        "text": "我要看巴拉小魔仙",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "巴拉小魔仙"
-        }
-    },
-    {
         "text": "大西南剿匪记",
         "domain": "video",
         "intent": "QUERY",
@@ -7216,29 +6934,12 @@
         }
     },
     {
-        "text": "我想看电影搜索",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "name": "搜索"
-        }
-    },
-    {
         "text": "2012年美国公告牌音乐大奖颁奖礼",
         "domain": "video",
         "intent": "QUERY",
         "slots": {
             "datetime_date": "2012年",
             "name": "美国公告牌音乐大奖颁奖礼"
-        }
-    },
-    {
-        "text": "喂我想看电影喂",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影"
         }
     },
     {
@@ -7696,12 +7397,6 @@
     },
     {
         "text": "找下最近最热播的电影。",
-        "domain": "cinemas",
-        "intent": "QUERY",
-        "slots": {}
-    },
-    {
-        "text": "我要看热门电影。",
         "domain": "cinemas",
         "intent": "QUERY",
         "slots": {}
@@ -10133,28 +9828,11 @@
         }
     },
     {
-        "text": "我要看湖南卫视快乐大本营",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "name": "快乐大本营",
-            "tvchannel": "湖南卫视"
-        }
-    },
-    {
         "text": "世界地理的节目单",
         "domain": "epg",
         "intent": "QUERY",
         "slots": {
             "tvchannel": "世界地理"
-        }
-    },
-    {
-        "text": "看当前直播的比赛",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "比赛"
         }
     },
     {
@@ -10202,28 +9880,11 @@
         }
     },
     {
-        "text": "能不能看当前的中超联赛",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "中超联赛"
-        }
-    },
-    {
         "text": "非诚勿扰什么时候演啊",
         "domain": "epg",
         "intent": "QUERY",
         "slots": {
             "name": "非诚勿扰"
-        }
-    },
-    {
-        "text": "我想看中央六台的电影。",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "tvchannel": "中央六台"
         }
     },
     {
@@ -10278,15 +9939,6 @@
         }
     },
     {
-        "text": "看看今天有什么好看的节目？",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "节目",
-            "datetime_date": "今天"
-        }
-    },
-    {
         "text": "电视台在播什么节目",
         "domain": "epg",
         "intent": "QUERY",
@@ -10319,15 +9971,6 @@
         }
     },
     {
-        "text": "回看烽火佳人回看安徽卫视烽火佳人",
-        "domain": "epg",
-        "intent": "LOOK_BACK",
-        "slots": {
-            "name": "烽火佳人",
-            "tvchannel": "安徽卫视"
-        }
-    },
-    {
         "text": "哪个台在放甄嬛",
         "domain": "epg",
         "intent": "QUERY",
@@ -10343,14 +9986,6 @@
             "datetime_date": "昨天",
             "datetime_time": "晚上",
             "tvchannel": "chc高清电影"
-        }
-    },
-    {
-        "text": "现在最好看的电影。",
-        "domain": "cinemas",
-        "intent": "QUERY",
-        "slots": {
-            "datetime_date": "现在"
         }
     },
     {
@@ -10546,14 +10181,6 @@
         }
     },
     {
-        "text": "收看安徽卫视节目。",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "tvchannel": "安徽卫视"
-        }
-    },
-    {
         "text": "什么电视台什么时间有转播仁心解码2",
         "domain": "epg",
         "intent": "QUERY",
@@ -10583,38 +10210,12 @@
         }
     },
     {
-        "text": "看中央七频道讲武堂节目",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "name": "讲武堂",
-            "tvchannel": "中央七频道"
-        }
-    },
-    {
-        "text": "给我看看什么时候有播盛夏晚晴天",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "name": "盛夏晚晴天"
-        }
-    },
-    {
         "text": "现在哪个频道播放电视剧",
         "domain": "epg",
         "intent": "QUERY",
         "slots": {
             "category": "电视剧",
             "datetime_time": "现在"
-        }
-    },
-    {
-        "text": "现在有什么好看的电视剧？",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电视剧",
-            "scoreDescr": "好看"
         }
     },
     {
@@ -10713,15 +10314,6 @@
         }
     },
     {
-        "text": "回看安徽卫视烽火佳人",
-        "domain": "epg",
-        "intent": "LOOK_BACK",
-        "slots": {
-            "name": "烽火佳人",
-            "tvchannel": "安徽卫视"
-        }
-    },
-    {
         "text": "给我搜搜什么电视台什么时间有转播神探高伦布",
         "domain": "epg",
         "intent": "QUERY",
@@ -10735,17 +10327,6 @@
         "intent": "PLAY",
         "slots": {
             "name": "湖南卫视"
-        }
-    },
-    {
-        "text": "我回去看昨天晚上播出的爸爸去哪儿31频道",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "datetime_date": "昨天",
-            "datetime_time": "晚上",
-            "code": "31",
-            "name": "爸爸去哪儿"
         }
     },
     {
@@ -10783,15 +10364,6 @@
         "intent": "QUERY",
         "slots": {
             "tvchannel": "中央六台"
-        }
-    },
-    {
-        "text": "今天什么好看电影？",
-        "domain": "epg",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "datetime_date": "今天"
         }
     },
     {
@@ -10877,16 +10449,6 @@
         "intent": "QUERY",
         "slots": {
             "tvchannel": "北京台"
-        }
-    },
-    {
-        "text": "回看上周末早上8点的湖南卫视",
-        "domain": "epg",
-        "intent": "LOOK_BACK",
-        "slots": {
-            "datetime_date": "上周末",
-            "datetime_time": "早上8点",
-            "tvchannel": "湖南卫视"
         }
     },
     {
@@ -11724,22 +11286,6 @@
         }
     },
     {
-        "text": "看看大乐透的得奖号码",
-        "domain": "lottery",
-        "intent": "NUMBER_QUERY",
-        "slots": {
-            "name": "大乐透"
-        }
-    },
-    {
-        "text": "看一看大乐透的信息",
-        "domain": "lottery",
-        "intent": "NUMBER_QUERY",
-        "slots": {
-            "name": "大乐透"
-        }
-    },
-    {
         "text": "本期七星彩的中奖号码是多少？",
         "domain": "lottery",
         "intent": "NUMBER_QUERY",
@@ -12408,14 +11954,6 @@
     },
     {
         "text": "中超比赛时间，我。",
-        "domain": "match",
-        "intent": "QUERY",
-        "slots": {
-            "category": "中超"
-        }
-    },
-    {
-        "text": "我想看足球中超，第25轮的比赛时间。",
         "domain": "match",
         "intent": "QUERY",
         "slots": {
@@ -13507,15 +13045,6 @@
         }
     },
     {
-        "text": "我看看现在的最新新闻是什么？",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {
-            "datetime_time": "现在",
-            "keyword": "最新"
-        }
-    },
-    {
         "text": "打开腾讯头条新闻",
         "domain": "news",
         "intent": "PLAY",
@@ -13615,15 +13144,6 @@
         "slots": {
             "datetime_date": "今天",
             "location_city": "杭州"
-        }
-    },
-    {
-        "text": "看一下今天早上新闻。",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {
-            "datetime_date": "今天",
-            "datetime_time": "早上"
         }
     },
     {
@@ -13762,14 +13282,6 @@
         }
     },
     {
-        "text": "看今天的新闻。",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {
-            "datetime_date": "今天"
-        }
-    },
-    {
         "text": "国际新闻。",
         "domain": "news",
         "intent": "PLAY",
@@ -13789,14 +13301,6 @@
         "intent": "PLAY",
         "slots": {
             "category": "足球"
-        }
-    },
-    {
-        "text": "看一下今天有什么新闻？",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {
-            "datetime_date": "今天"
         }
     },
     {
@@ -13822,12 +13326,6 @@
         "slots": {
             "datetime_date": "今天"
         }
-    },
-    {
-        "text": "看看有什么好新闻",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {}
     },
     {
         "text": "讯飞语音我想知道山东省东营市今天的新闻。",
@@ -13866,15 +13364,6 @@
         "slots": {
             "datetime_date": "今天",
             "location_city": "惠州"
-        }
-    },
-    {
-        "text": "现在看看有最新的新闻吗？",
-        "domain": "news",
-        "intent": "PLAY",
-        "slots": {
-            "datetime_time": "现在",
-            "keyword": "最新"
         }
     },
     {
@@ -13923,31 +13412,6 @@
         }
     },
     {
-        "text": "我要看魔幻学院小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "魔幻学院"
-        }
-    },
-    {
-        "text": "我要看饶雪漫的小说左耳",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "author": "饶雪漫",
-            "name": "左耳"
-        }
-    },
-    {
-        "text": "最近好看的小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "popularity": "好看"
-        }
-    },
-    {
         "text": "搜索小说校园全能高手。",
         "domain": "novel",
         "intent": "QUERY",
@@ -13962,14 +13426,6 @@
         "slots": {}
     },
     {
-        "text": "我要看现代重生小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "现代重生"
-        }
-    },
-    {
         "text": "郭敬明的爱情小说《悲伤逆流成河》",
         "domain": "novel",
         "intent": "QUERY",
@@ -13977,32 +13433,6 @@
             "author": "郭敬明",
             "category": "爱情",
             "name": "悲伤逆流成河"
-        }
-    },
-    {
-        "text": "我要看唐家三少写的玄幻小说绝世唐门",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "author": "唐家三少",
-            "category": "玄幻",
-            "name": "绝世唐门"
-        }
-    },
-    {
-        "text": "我要看灵异推理小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "灵异推理"
-        }
-    },
-    {
-        "text": "我要看游戏异界小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "游戏异界"
         }
     },
     {
@@ -14018,42 +13448,11 @@
         "slots": {}
     },
     {
-        "text": "我要看魔法神话小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "魔法神话"
-        }
-    },
-    {
         "text": "网上最火的小说有哪些",
         "domain": "novel",
         "intent": "QUERY",
         "slots": {
             "popularity": "最火"
-        }
-    },
-    {
-        "text": "我要看免费的小说。",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {}
-    },
-    {
-        "text": "我要看古典仙侠小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "古典仙侠"
-        }
-    },
-    {
-        "text": "我要看校园小说致我们终将逝去的青春",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "校园",
-            "name": "致我们终将逝去的青春"
         }
     },
     {
@@ -14072,14 +13471,6 @@
         "slots": {
             "category": "玄幻",
             "name": "武动乾坤"
-        }
-    },
-    {
-        "text": "我要看古言小说",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "category": "古言"
         }
     },
     {
@@ -15222,14 +14613,6 @@
         }
     },
     {
-        "text": "看一下中式传媒股票的涨跌幅",
-        "domain": "stock",
-        "intent": "RISERATE_QUERY",
-        "slots": {
-            "name": "中式传媒"
-        }
-    },
-    {
         "text": "科大讯飞昨日成交价",
         "domain": "stock",
         "intent": "QUERY",
@@ -15365,14 +14748,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "伊利股份"
-        }
-    },
-    {
-        "text": "我想看一下科大讯飞的股票",
-        "domain": "stock",
-        "intent": "QUERY",
-        "slots": {
-            "name": "科大讯飞"
         }
     },
     {
@@ -16815,14 +16190,6 @@
         }
     },
     {
-        "text": "我想看高尔夫网球频道",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "高尔夫网球频道"
-        }
-    },
-    {
         "text": "打开珠江台",
         "domain": "tvchannel",
         "intent": "PLAY",
@@ -16972,14 +16339,6 @@
         }
     },
     {
-        "text": "我要看下中央六套",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "中央六套"
-        }
-    },
-    {
         "text": "CCTV7军事农业",
         "domain": "tvchannel",
         "intent": "PLAY",
@@ -17004,27 +16363,11 @@
         }
     },
     {
-        "text": "我看呀中央五台",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "中央五台"
-        }
-    },
-    {
         "text": "游戏竞技频道",
         "domain": "tvchannel",
         "intent": "PLAY",
         "slots": {
             "name": "游戏竞技频道"
-        }
-    },
-    {
-        "text": "我要看湖南台",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "湖南台"
         }
     },
     {
@@ -17082,14 +16425,6 @@
         "intent": "PLAY",
         "slots": {
             "name": "西藏卫视"
-        }
-    },
-    {
-        "text": "哦我想看中央一台",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "中央一台"
         }
     },
     {
@@ -17182,14 +16517,6 @@
         }
     },
     {
-        "text": "我要看中央五台",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "中央五台"
-        }
-    },
-    {
         "text": "江苏影视台",
         "domain": "tvchannel",
         "intent": "PLAY",
@@ -17247,14 +16574,6 @@
         }
     },
     {
-        "text": "在线观看中央七套",
-        "domain": "tvchannel",
-        "intent": "PLAY",
-        "slots": {
-            "name": "中央七套"
-        }
-    },
-    {
         "text": "中国教育电视台三台",
         "domain": "tvchannel",
         "intent": "PLAY",
@@ -17303,14 +16622,6 @@
         }
     },
     {
-        "text": "看中国好声音",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "中国好声音"
-        }
-    },
-    {
         "text": "智慧树",
         "domain": "video",
         "intent": "QUERY",
@@ -17324,14 +16635,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "开心大冒险"
-        }
-    },
-    {
-        "text": "看空霸",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "空霸"
         }
     },
     {
@@ -17429,15 +16732,6 @@
         }
     },
     {
-        "text": "我想看搞定岳父大人电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "name": "搞定岳父大人"
-        }
-    },
-    {
         "text": "电影中国合伙人",
         "domain": "video",
         "intent": "QUERY",
@@ -17478,15 +16772,6 @@
         "slots": {
             "name": "盗梦空间",
             "timeDescr": "最新"
-        }
-    },
-    {
-        "text": "好无聊哇有什么好看的电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "scoreDescr": "好看"
         }
     },
     {
@@ -17592,26 +16877,6 @@
         }
     },
     {
-        "text": "最近有什么好看的电视连续剧武打的。",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电视连续剧",
-            "scoreDescr": "好看",
-            "tag": "武打",
-            "timeDescr": "最近"
-        }
-    },
-    {
-        "text": "我想看大武当电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "name": "大武当"
-        }
-    },
-    {
         "text": "小兵张嘎电影儿",
         "domain": "video",
         "intent": "QUERY",
@@ -17625,14 +16890,6 @@
         "domain": "news",
         "intent": "PLAY",
         "slots": {}
-    },
-    {
-        "text": "要看名侦探柯南",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "名侦探柯南"
-        }
     },
     {
         "text": "播七龙珠",
@@ -17658,15 +16915,6 @@
             "category": "片",
             "name": "巴啦啦小魔仙",
             "tag": "动画"
-        }
-    },
-    {
-        "text": "好看足球比赛",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "scoreDescr": "好看",
-            "tag": "足球比赛"
         }
     },
     {
@@ -17712,17 +16960,6 @@
         }
     },
     {
-        "text": "我想看周星驰的喜剧电影喜剧之王",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "artist": "周星驰",
-            "category": "电影",
-            "name": "喜剧之王",
-            "tag": "喜剧"
-        }
-    },
-    {
         "text": "魔幻手机",
         "domain": "video",
         "intent": "QUERY",
@@ -17756,22 +16993,6 @@
         }
     },
     {
-        "text": "看东方",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "东方"
-        }
-    },
-    {
-        "text": "看乡村爱情",
-        "domain": "novel",
-        "intent": "QUERY",
-        "slots": {
-            "name": "乡村爱情"
-        }
-    },
-    {
         "text": "香港杜琪峰导演的喜剧孤男寡女",
         "domain": "video",
         "intent": "QUERY",
@@ -17781,15 +17002,6 @@
             "artistRole": "导演",
             "name": "孤男寡女",
             "tag": "喜剧"
-        }
-    },
-    {
-        "text": "我想要看很火的电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "popularity": "火"
         }
     },
     {
@@ -17844,29 +17056,6 @@
         }
     },
     {
-        "text": "我想看变形金刚三",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "变形金刚三"
-        }
-    },
-    {
-        "text": "看看最近有什么电影？",
-        "domain": "cinemas",
-        "intent": "QUERY",
-        "slots": {}
-    },
-    {
-        "text": "看上周五的爸爸我去哪儿",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "datetime_date": "上周五",
-            "name": "爸爸我去哪儿"
-        }
-    },
-    {
         "text": "我的爱金枝玉叶",
         "domain": "video",
         "intent": "QUERY",
@@ -17886,15 +17075,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "妈妈的花样年华"
-        }
-    },
-    {
-        "text": "我要看李连杰的电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "artist": "李连杰",
-            "category": "电影"
         }
     },
     {
@@ -17943,23 +17123,6 @@
         }
     },
     {
-        "text": "我想看爱情闯进门",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "爱情闯进门"
-        }
-    },
-    {
-        "text": "最近有什么好看得",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "scoreDescr": "好看",
-            "timeDescr": "最近"
-        }
-    },
-    {
         "text": "命运派对",
         "domain": "video",
         "intent": "QUERY",
@@ -17990,14 +17153,6 @@
         "slots": {
             "artist": "詹姆斯卡梅隆",
             "category": "电影"
-        }
-    },
-    {
-        "text": "我想看喜羊羊",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "喜羊羊"
         }
     },
     {
@@ -18045,16 +17200,6 @@
             "category": "节目",
             "tag": "新闻",
             "timeDescr": "最新"
-        }
-    },
-    {
-        "text": "看看郑晓龙导演的甄嬛传",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "artist": "郑晓龙",
-            "artistRole": "导演",
-            "name": "甄嬛传"
         }
     },
     {
@@ -18116,14 +17261,6 @@
         }
     },
     {
-        "text": "我想看珍珠港",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "珍珠港"
-        }
-    },
-    {
         "text": "2013年的警匪电视剧",
         "domain": "video",
         "intent": "QUERY",
@@ -18134,29 +17271,11 @@
         }
     },
     {
-        "text": "我想看董浩配音的动漫",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "artist": "董浩",
-            "artistRole": "配音",
-            "category": "动漫"
-        }
-    },
-    {
         "text": "播放特种兵之利刃出鞘",
         "domain": "video",
         "intent": "QUERY",
         "slots": {
             "name": "特种兵之利刃出鞘"
-        }
-    },
-    {
-        "text": "我想看变形金刚哦",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "变形金刚"
         }
     },
     {
@@ -18229,14 +17348,6 @@
         }
     },
     {
-        "text": "看动物卡通",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "tag": "动物卡通"
-        }
-    },
-    {
         "text": "13年的电影",
         "domain": "video",
         "intent": "QUERY",
@@ -18251,18 +17362,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "康熙大帝"
-        }
-    },
-    {
-        "text": "2013年陈可辛导演的好看的电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "artist": "陈可辛",
-            "artistRole": "导演",
-            "category": "电影",
-            "datetime_date": "2013年",
-            "scoreDescr": "好看"
         }
     },
     {
@@ -18335,15 +17434,6 @@
         }
     },
     {
-        "text": "我想看电影超人",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影",
-            "name": "超人"
-        }
-    },
-    {
         "text": "新扎师妹",
         "domain": "video",
         "intent": "QUERY",
@@ -18357,14 +17447,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "猫眼三姐妹"
-        }
-    },
-    {
-        "text": "我是说我要看一起又看流星雨",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "name": "一起又看流星雨"
         }
     },
     {
@@ -18399,16 +17481,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "我是特种兵二"
-        }
-    },
-    {
-        "text": "我想看张艺谋导演的电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "artist": "张艺谋",
-            "artistRole": "导演",
-            "category": "电影"
         }
     },
     {
@@ -18499,14 +17571,6 @@
         }
     },
     {
-        "text": "你好我想看电影",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影"
-        }
-    },
-    {
         "text": "捍卫者",
         "domain": "video",
         "intent": "QUERY",
@@ -18520,15 +17584,6 @@
         "intent": "QUERY",
         "slots": {
             "name": "我的幸福"
-        }
-    },
-    {
-        "text": "看千金归来第五集",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "episode": "第五集",
-            "name": "千金归来"
         }
     },
     {
@@ -18620,24 +17675,10 @@
         }
     },
     {
-        "text": "最近有什么好看电影了？",
-        "domain": "cinemas",
-        "intent": "QUERY",
-        "slots": {}
-    },
-    {
         "text": "最近有什么好电影吗？",
         "domain": "cinemas",
         "intent": "QUERY",
         "slots": {}
-    },
-    {
-        "text": "看电影啊",
-        "domain": "video",
-        "intent": "QUERY",
-        "slots": {
-            "category": "电影"
-        }
     },
     {
         "text": "中国最强音",
@@ -18739,22 +17780,6 @@
         "intent": "OPEN",
         "slots": {
             "name": "淘宝网"
-        }
-    },
-    {
-        "text": "看网易财经",
-        "domain": "website",
-        "intent": "OPEN",
-        "slots": {
-            "name": "网易财经"
-        }
-    },
-    {
-        "text": "我想看一下凤凰网",
-        "domain": "website",
-        "intent": "OPEN",
-        "slots": {
-            "name": "凤凰网"
         }
     },
     {

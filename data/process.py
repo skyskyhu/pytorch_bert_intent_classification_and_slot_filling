@@ -56,7 +56,8 @@ if __name__ == '__main__':
         if '帮我找' in text:
             isStartFilter = True
         if isStartFilter is True:
-            if '查' in text:
+            #print(text)
+            if '看' in text:
                 trainJsonCopy.remove(trainItem)
                 print('remove ' + text)
     with open(train_file, 'w', encoding='UTF-8') as f:
