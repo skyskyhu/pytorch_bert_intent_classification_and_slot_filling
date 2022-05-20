@@ -47,5 +47,19 @@ def train_test_split(ratio=0.8):
 
 
 if __name__ == '__main__':
+    train_file = './train.json'
+    trainJson = json.load(open(train_file, 'r', encoding='UTF-8'))
+    trainJsonCopy = list(trainJson)
+    isStartFilter = False
+    for trainItem in trainJson:
+        text = trainItem['text']
+        if '帮我找' in text:
+            isStartFilter = True
+        if isStartFilter is True:
+            if '查' in text:
+                trainJsonCopy.remove(trainItem)
+                print('remove ' + text)
+    with open(train_file, 'w', encoding='UTF-8') as f:
+        json.dump(trainJsonCopy, f, indent=4, ensure_ascii=False)
     get_data()
     train_test_split()
