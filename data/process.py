@@ -57,10 +57,10 @@ if __name__ == '__main__':
             isStartFilter = True
         if isStartFilter is True:
             #print(text)
-            if '看' in text:
+            if '班' in text:
                 trainJsonCopy.remove(trainItem)
                 print('remove ' + text)
-    with open(train_file, 'w', encoding='UTF-8') as f:
-        json.dump(trainJsonCopy, f, indent=4, ensure_ascii=False)
+    #with open(train_file, 'w', encoding='UTF-8') as f:
+    #    json.dump(trainJsonCopy, f, indent=4, ensure_ascii=False)
     get_data()
     train_test_split()

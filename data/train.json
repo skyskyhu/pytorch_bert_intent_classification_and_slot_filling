@@ -150,6 +150,66 @@
         "slots": {}
     },
     {
+        "text": "值班",
+        "domain": "app",
+        "intent": "DUTY",
+        "slots": {}
+    },
+    {
+        "text": "谁值班",
+        "domain": "app",
+        "intent": "DUTY",
+        "slots": {}
+    },
+    {
+        "text": "今天值班",
+        "domain": "app",
+        "intent": "DUTY",
+        "slots": {}
+    },
+    {
+        "text": "今天谁值班",
+        "domain": "app",
+        "intent": "DUTY",
+        "slots": {}
+    },
+    {
+        "text": "值班安排",
+        "domain": "app",
+        "intent": "DUTY",
+        "slots": {}
+    }, 
+    {
+        "text": "诊断",
+        "domain": "app",
+        "intent": "DIAGNOSE",
+        "slots": {}
+    },
+    {
+        "text": "工单诊断",
+        "domain": "app",
+        "intent": "DIAGNOSE",
+        "slots": {}
+    },
+    {
+        "text": "工单问题诊断",
+        "domain": "app",
+        "intent": "DIAGNOSE",
+        "slots": {}
+    },
+    {
+        "text": "失败诊断",
+        "domain": "app",
+        "intent": "DIAGNOSE",
+        "slots": {}
+    },
+    {
+        "text": "工单失败问题诊断",
+        "domain": "app",
+        "intent": "DIAGNOSE",
+        "slots": {}
+    },
+    {
         "text": "帮我找到微信",
         "domain": "app",
         "intent": "QUERY",
