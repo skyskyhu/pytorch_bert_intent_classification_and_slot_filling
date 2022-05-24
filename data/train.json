@@ -6,6 +6,12 @@
         "slots": {}
     },
     {
+        "text": "订",
+        "domain": "app",
+        "intent": "SUBSCRIBE",
+        "slots": {}
+    },
+    {
         "text": "订阅",
         "domain": "app",
         "intent": "SUBSCRIBE",
@@ -55,6 +61,12 @@
     },
     {
         "text": "订阅应用opsfree",
+        "domain": "app",
+        "intent": "SUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "消息订阅",
         "domain": "app",
         "intent": "SUBSCRIBE",
         "slots": {}
@@ -120,13 +132,61 @@
         "slots": {}
     },
     {
-        "text": "我要退订群播报",
+        "text": "退订应用opsfree",
         "domain": "app",
         "intent": "UNSUBSCRIBE",
         "slots": {}
     },
     {
+        "text": "消息过滤",
+        "domain": "app",
+        "intent": "FILTER",
+        "slots": {}
+    },
+    {
+        "text": "新增消息过滤",
+        "domain": "app",
+        "intent": "FILTER",
+        "slots": {}
+    },
+    {
+        "text": "新增消息过滤规则",
+        "domain": "app",
+        "intent": "FILTER",
+        "slots": {}
+    },
+    {
+        "text": "过滤",
+        "domain": "app",
+        "intent": "FILTER",
+        "slots": {}
+    },
+    {
+        "text": "删除过滤",
+        "domain": "app",
+        "intent": "UNFILTER",
+        "slots": {}
+    },
+    {
+        "text": "删除消息过滤",
+        "domain": "app",
+        "intent": "UNFILTER",
+        "slots": {}
+    },
+    {
+        "text": "删除消息过滤规则",
+        "domain": "app",
+        "intent": "UNFILTER",
+        "slots": {}
+    },
+    {
         "text": "查看群播报",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "群播报",
         "domain": "app",
         "intent": "LISTSUBSCRIBE",
         "slots": {}
@@ -157,6 +217,24 @@
     },
     {
         "text": "列出订阅群播报",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "查看过滤",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "查看消息过滤",
+        "domain": "app",
+        "intent": "LISTSUBSCRIBE",
+        "slots": {}
+    },
+    {
+        "text": "查看过滤规则",
         "domain": "app",
         "intent": "LISTSUBSCRIBE",
         "slots": {}

@@ -6,7 +6,7 @@ class BertForIntentClassificationAndSlotFilling(nn.Module):
     def __init__(self, config):
         super(BertForIntentClassificationAndSlotFilling, self).__init__()
         self.config = config
-        self.bert = BertModel.from_pretrained(config.bert_dir)
+        self.bert = BertModel.from_pretrained(config.bert_dir, local_files_only = True)
         self.bert_config = self.bert.config
         self.sequence_classification = nn.Sequential(
             nn.Dropout(config.hidden_dropout_prob),

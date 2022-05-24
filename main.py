@@ -186,7 +186,7 @@ if __name__ == '__main__':
     args = Args()
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     args.device = device
-    tokenizer = BertTokenizer.from_pretrained(args.bert_dir)
+    tokenizer = BertTokenizer.from_pretrained(args.bert_dir, local_files_only = True)
 
     if args.do_train:
         raw_examples = Processor.get_examples(args.train_path, 'train')
